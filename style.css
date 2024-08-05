@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+background-image: url(./image.jpg);
+background-size: cover;
+height:100vh;
+}
+.navbar{
+    background-color:whitesmoke;
+    font-size: 20px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:brown;
+    font-weight: bolder;
+    font-size:larger;
+    text-transform: uppercase;
+    
+}
+.navbar a{
+    text-decoration: none;
+   
+}
+.navbar li{
+    display: inline-block;
+    margin:0 8px;
+}
+a:hover{
+    color: rgb(222, 7, 11);
+}
+
+ul{
+  width: 500px;
+display: flex;
+justify-content: space-around;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+   background-color:rgb(249, 244, 244);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding: 20px;
+  
+}
+ul li a:hover{
+    background-color: rgb(85, 227, 87)
+}
+ul li:hover ul.dropdown{
+    padding: 15px;
+    display: block;
+}
+
+
+
